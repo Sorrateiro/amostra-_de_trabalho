@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 30</title>
+    <link rel="stylesheet" href="estilos/estilocss01.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/estilocss02.css">
+    
+</head>
+<body onresize="mudoutamanho()">
+ <!-- a ideia nesse projeto é mostrar como muda nas diferentes posiçoes da tela coloque ceu aparelho de lado se estive em um telefone-->
+  <header><h1>Exercício 30</h1>
+<span class="material-symbols-outlined" id="amburguer" onclick="menuclick()">
+menu
+</span>
+    <menu id="menu">
+        <ul>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer"> opção 1</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer"> opção 2</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer"> opção 3</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer"> opção 4</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer"> opção 5</a></li>
+        </ul>
+    </menu>
+    
+
+</header>
+<main>
+<article>
+        <h1>Investir em Estratégias de Marketing com ROI: O Caminho para Resultados Reais</h1><br>
+        <h2>O que é ROI no Marketing?</h2>
+       <p>ROI (Return on Investment) significa Retorno sobre o Investimento. No marketing, ele mede quanto uma ação ou campanha trouxe de retorno financeiro em relação ao valor investido.
+A fórmula é simples:</p>
+        <p>ROI = (Lucro - Investimento) / Investimento</p>
+         
+      <p>Ou seja, se uma empresa investe R$ 10.000 em marketing e obtém R$ 30.000 em vendas, o ROI é de 200%.</p>
+      <h2>Por que investir em estratégias com ROI?</h2>
+      <p>
+        Investir em estratégias de marketing com ROI comprovado é essencial para garantir que os recursos da empresa sejam utilizados de forma eficiente. Aqui estão algumas razões para focar em ROI:</p>
+        <!-- lista -->
+      <ul>
+        <li><strong>Eficiência Financeira:</strong> Ao investir em campanhas que geram retorno, a empresa maximiza seus lucros e minimiza desperdícios.</li>
+        <li><strong>Tomada de Decisão Informada:</strong> O ROI fornece dados concretos que ajudam na escolha das melhores estratégias de marketing.</li>
+        <li><strong>Ajuste Contínuo:</strong> Com o monitoramento do ROI, é possível ajustar campanhas em tempo real para melhorar os resultados.</li>
+      </ul><br>
+      <h2>
+        Comparativo de Estratégias e Impacto no ROI
+      </h2>
+      <!-- tabela -->
+      <table>
+        <tr>
+          <th>Marketing de Conteúdo</th>
+          <td>Atrai leads qualificados</td>
+          <td>Médio/Alto</td>
+          
+        </tr>
+            <th>SEO</th>
+            <td>Tráfego orgânico recorrente</td>
+            <td>Alto</td>
+        </tr>
+        </tr>
+            <th>Remarketing</th>
+            <td>Recupera clientes indecisos</td>
+            <td>Médio</td>
+        </tr>
+        <tr>
+            <th>Influenciadores</th>
+            <td>Expande alcance e confiança</td>
+            <td>Médio/Alto</td>
+        </tr>
+        <tr>
+            <th>Programas de Indicação</th>
+            <td>Baixo custo de aquisição</td>
+            <td>Alto</td>
+        </tr>
+        <tr>
+            <th>Atendimento ao Cliente	</th>
+            <td>Fidelização e recompra</td>
+            <td>Alto</td>
+        </tr>
+      </table>
+      <tbody>
+        <tr>
+            <th>Conclusão</th>
+            <td colspan="2">Investir em estratégias de marketing com ROI comprovado é fundamental para o sucesso empresarial. Ao focar em ações que geram resultados reais, as empresas podem otimizar seus recursos, tomar decisões informadas e alcançar um crescimento sustentável no mercado competitivo atual.</td>
+        </tr>
+      </tbody>
+
+   </article>
+
+</main>
+<script>
+    function menuclick() {
+        const menu = document.getElementById('menu');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+    function mudoutamanho() {
+        const menu = document.getElementById('menu');
+        if (window.innerWidth >= 600) {
+            menu.style.display = 'block';
+        } else {
+            menu.style.display = 'none';
+        }
+
+        
+    }
+</script>
+
+
+</body>
+</html>
