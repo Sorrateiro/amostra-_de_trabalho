@@ -33,10 +33,10 @@
   Formatos personalizados
   Coordenadas específicas
 </p>
-<p>/projeto </p><br> 
-    <p style="text-indent: 30px>├── index.html</p><br>
-    <p style="text-indent: 30px>└── assets/</p><br>
-      <p style="text-indent: 35px>└── imagem.png</p><br>
+<p>/projeto <br> 
+   ...├── index.html<br>
+   ...└── assets/<br>
+     .......└── imagem.png<br>
 <h2>💡 Aprendizados</h2>
 <p>
   Como utilizar a tag <map>
