@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>area clicavel</title>
       <link rel="stylesheet" href="style/farstMobile.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+      
+     
 </head>
-<body onresize="mudoutamanho()"> 
+<body>
+ 
 <header>
     <h1>Áreas Clicáveis</h1>
     <h2>Sol e Torre do Relógio</h2>
+    <span class="material-symbols-outlined" id="Mudança_de_cores" onclick="mudoucor()"> 
+radio_button_partial
+</span>
 </header>
 
 <span class="material-symbols-outlined" id="amburguer" onclick="menuclick()">
 menu
 </span>
-<menu id="menu">
+<menu id="menu" class="menu">
         <ul>
             <li><a href="http://" target="_blank" rel="noopener noreferrer"> opção 1</a></li>
             <li><a href="http://" target="_blank" rel="noopener noreferrer"> opção 2</a></li>

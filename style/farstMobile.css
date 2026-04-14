@@ -69,3 +69,37 @@
   'GRAD' 0,
   'opsz' 24
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  display: block; 
+  margin: 20px auto; 
+  width:90%; 
+  text-align: end;
+cursor: pointer;
+}
+
+/* Estilos para telas menores que 600px (mobile) */
+#amburguer {
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+/* Estilos para telas maiores que 600px */
+@media (min-width: 601px) {
+    #amburguer {
+        display: none;
+    }
+    
+    #menu {
+        display: block;
+    }
+}
+
